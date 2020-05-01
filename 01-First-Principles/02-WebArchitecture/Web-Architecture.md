@@ -66,5 +66,41 @@ Depending on the total number of servers and databases used for a web applicatio
 * When the scale is large i.e. more than 5 web servers or databases or both, it is advised to install load balancers.
 
 ## Models
-### Client - server Models
-Initially the web consisted of this two tiered architecture
+### Single Page Applications
+* Instead of loading completely new pages from the server each time for a user action, single page web applications allows for a dynamic interaction by means of providing updated content to the current page.
+
+* Makes use of AJAX and Jquery a lot, a concise form of Asynchronous JavaScript and XML, is the foundation for enabling page communications and hence, making SPAs a reality.
+
+* Because single-page applications prevent interruptions in user experience, they, in a way, resemble traditional desktop applications.
+
+* SPAs are designed in a way so that they request for most necessary content and information elements. This leads to the procurement of an intuitive as well as interactive user experience.
+
+### Microservices
+* These are small and lightweight services that execute a single functionality.
+* The Microservices Architecture framework has a number of advantages that allows developers to not only enhance productivity but also speed up the entire deployment process.
+* The components making up an application build using the Microservices Architecture aren’t directly dependent on each other. As such, they don’t necessitate to be built using the same programming language.
+* If you are working with the Microservices Architecture, you are free to pick up a technology stack of choice. It makes developing the application simpler and quicker.
+
+### Serverless Architectures
+* In this type of web application architecture, an application developer consults a third-party cloud infrastructure services provider for outsourcing server as well as infrastructure management.
+* The benefit of this approach is that it allows applications to execute the code logic without bothering with the infrastructure-related tasks.
+* The Serverless Architecture is best when the development company doesn’t want to manage or support the servers as well as the hardware they have developed the web application for.
+
+## How the request response cycle works
+Lets say you wish to visit a site called XYZ.com
+
+1. First, you visit XYZ.com.
+    * You type in the URL and as you hit Enter, your browser prepares to recognize this URL, because it needs to know the address of the server where the page is located.
+    * So it sends your request to the Domain Name Center (DNS), a repository of domain names and their IP addresses.
+    * If you’ve already visited XYZ from the same browser, it will pull the address from the cache.
+    * Then, a browser sends the request to the found IP address using the HTTPS protocol.
+
+2. Second, the web server processes the request.
+    * The web server where XYZ.com is located catches the request and sends it to the storage area to locate the page and all data that follows with it.
+    * But its route is held via Business Logic (also called Domain Logic and Application Logic).
+    * Business Logic manages how each piece of data is accessed and determines this workflow specifically for each application.
+    * As Business Logic processes the request, it sends it to storage to locate the looked-for data.
+
+3. Third, you receive your data.
+    * Your response travels back to you and you see the content of the web page on your display.
+    * The graphical interface you see when scrolling XYZ’s or any other website is called the front end of an application – it depicts all UX and UI components so that a user can access the information they came looking for.
