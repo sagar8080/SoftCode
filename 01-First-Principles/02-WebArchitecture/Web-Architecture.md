@@ -6,7 +6,7 @@ I'll cover the design aspects in the System design concepts.
 The core of a Web application is its server-side logic.
 The Web application layer itself can be comprised of many distinct layers.
 The typical example is a three-layered architecture comprised of presentation, business, and data layers.
-![web architecture](SoftCode/01-First-Principles/02-WebArchitecture/pictures/Webarchitecture-01.png?raw=true)
+![web architecture](pictures/Webarchitecture-01.png)
 
 ## User - Developer conondrum
 
